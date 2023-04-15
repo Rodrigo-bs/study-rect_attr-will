@@ -1,0 +1,44 @@
+.card {
+    padding: 10px;
+    display: block;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.card + .card  {
+    margin-top: 20px;
+}
+
+.cardContent h1 {
+    font-size: 1.6rem;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.cardContent p {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+span.cardRateMessageBaixa,
+span.cardRateMessageAlta {
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    display: block;
+}
+
+span.cardRateMessageAlta {
+    color: rgb(25, 135, 36);
+    background: rgba(25, 135, 36, 0.449);
+}
+
+span.cardRateMessageBaixa {
+    color: rgb(135, 25, 25);
+    background: rgba(135, 25, 25, 0.356);
+}
